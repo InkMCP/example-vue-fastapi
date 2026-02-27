@@ -1,25 +1,36 @@
 # Vue + FastAPI
 
-Learn how to deploy a Vue frontend with a FastAPI backend using Ink MCP.
+A simple Vue frontend + FastAPI backend app, ready to deploy.
+
+## Setup
+
+```bash
+# Backend
+cd backend
+pip install -r requirements.txt
+python main.py
+
+# Frontend (in another terminal)
+cd frontend
+npm install
+npm run dev
+```
+
+The frontend runs on [http://localhost:5173](http://localhost:5173) and the API on port 8000.
+
+## Deploy with Ink
+
+Connect the [Ink MCP server](https://docs.ml.ink/quick-start) to your AI agent and prompt:
+
+> Deploy this app with Ink.
 
 ## Tutorial
 
-Full step-by-step tutorial: [docs.ml.ink/examples/full-stack/vue-fastapi](https://docs.ml.ink/examples/full-stack/vue-fastapi)
-
-### Prerequisites
-
-- An [Ink](https://ml.ink) account
-- Ink MCP connected to your AI agent ([setup guide](https://docs.ml.ink/quick-start))
-
-### Quick Deploy
-
-1. Connect Ink MCP to your agent
-2. Prompt: "Create a bookmarks app with a Vue 3 frontend and Python FastAPI backend. The frontend communicates with the API over REST."
-3. Prompt: "Deploy with Ink"
+Full tutorial: [docs.ml.ink/examples/full-stack/vue-fastapi](https://docs.ml.ink/examples/full-stack/vue-fastapi)
 
 ## About Ink
 
-[Ink](https://ml.ink) is a deployment platform built for AI agents. Connect the Ink MCP server to any AI coding agent and deploy applications, manage domains, databases, and infrastructure — all through natural language prompts.
+[Ink](https://ml.ink) is a deployment platform built for AI agents.
 
 - **Website**: [ml.ink](https://ml.ink)
 - **Documentation**: [docs.ml.ink](https://docs.ml.ink)
